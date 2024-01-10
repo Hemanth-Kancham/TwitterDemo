@@ -1,0 +1,54 @@
+.tweet-list-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.user-profile-pic-container {
+  margin-right: 20px;
+}
+
+.user-profile-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.tweet-username-time-container {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-username {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.tweet-time {
+  font-size: 16px;
+  color: rgb(125, 125, 125);
+}
+.tweet-container {
+  flex-grow: 1;
+}
+.tweet-content {
+  font-size: 16px;
+}
+
+.tweet-picture {
+  margin-top: 20px;
+  width: 300px;
+  border-radius: 30px;
+}
+
+.tweet-bottom-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.like-icon {
+  align-self: flex-end;
+  cursor: pointer;
+}
