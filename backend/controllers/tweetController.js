@@ -1,6 +1,7 @@
 const client = require("../connectDb");
 const { storage } = require("../config/firbaseConfig");
 const redis = require("redis");
+const env = require("dotenv");
 env.config();
 
 let redisClient;
